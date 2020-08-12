@@ -4,6 +4,8 @@ Basic setup of a yew single page app (SPA) web project.
 
 Based on http://www.sheshbabu.com/posts/rust-wasm-yew-single-page-application/
 
+Github for the above: https://github.com/sheshbabu/rustmart-yew-example
+
 # Setup
 
 ```
