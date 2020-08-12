@@ -1,7 +1,9 @@
 use wasm_bindgen::prelude::*;
 use yew::prelude::*;
 
+mod api;
 mod pages;
+mod types;
 
 use pages::Home;
 
