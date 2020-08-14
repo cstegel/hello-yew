@@ -2,6 +2,7 @@ use wasm_bindgen::prelude::*;
 use yew::prelude::*;
 
 mod api;
+mod components;
 mod pages;
 mod types;
 
