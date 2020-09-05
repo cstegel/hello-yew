@@ -7,6 +7,11 @@ command = "wasm-pack"
 args = ["build", "--dev", "--target", "web", "--out-name", "wasm", "--out-dir", "./www/wasm"]
 watch = { ignore_pattern = "www/wasm/*" }
 
+[tasks.rel]
+command = "wasm-pack"
+args = ["build", "--rel", "--target", "web", "--out-name", "wasm", "--out-dir", "./www/wasm"]
+
+
 [tasks.serve]
 command = "simple-http-server"
 args = ["-i", "./www/", "-p", "8080", "--nocache", "--try-file", "./www/index.html"]
